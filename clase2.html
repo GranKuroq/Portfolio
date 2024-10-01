@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        
+        <input id="box" type="checkbox">
+        <label for="box">Acepta términos</label><br><br>
+        <input type="text" placeholder="Nombre de usuario" required>
+        <label style="color: red;">*</label><br><br>
+        <!-- select>option*5[value=$]-->
+        <select required>
+            <option disabled selected>Lista de Opciones</option>
+            <option value="1">opcion 1</option>
+            <option value="2">opcion 2</option>
+            <option value="3">opcion 3</option>
+            <option value="4">opcion 4</option>
+            <option value="5">opcion 5</option>
+        </select><br><br>
+        <datalist id="lista">
+            <option>Santiago Rada</option>
+            <option>Catriel</option>
+            <option>Jessica</option>
+            <option>Alva</option>
+            <option>Facundo</option>
+        </datalist>
+        <input type="text" placeholder="nombre del alumno" list="lista"><br><br>
+
+        <details>
+            <summary>infromacion adiciomnal</summary>
+            <div>
+                <h2>titulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quisquam animi provident exercitationem non sunt nemo rerum deleniti magnam. Aspernatur qui sunt illum assumenda consectetur eos ipsam, delectus a unde!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo vel laborum neque et id laboriosam temporibus maxime praesentium, cumque obcaecati facilis a nesciunt maiores dignissimos in incidunt, exercitationem odio? Quis?
+                Mollitia, quibusdam. Expedita quidem odit magnam consectetur cum harum asperiores nam eaque totam quis unde, nulla aliquam. Voluptatum tempora, explicabo nobis voluptas dolor officiis ad facilis delectus sit, aperiam modi?
+                Illo, repudiandae, reprehenderit soluta voluptatem possimus minima velit, cupiditate eligendi autem dicta officia fugiat aliquam maxime quas ut alias tempora excepturi adipisci. Neque labore molestiae vel illo? Accusantium, corporis provident.
+                Delectus iure et ipsam consequuntur voluptatibus nam natus eveniet adipisci omnis porro commodi provident, corporis quisquam sit repellendus ad tenetur incidunt facilis a iusto molestiae. Voluptatem similique maxime exercitationem nam.
+                Eum quisquam saepe aliquam sed asperiores tempore blanditiis inventore ipsum fuga, nemo accusamus expedita velit. Vero similique dolore natus consectetur reiciendis harum, dolor reprehenderit commodi iste consequuntur, eius voluptates sed!</p>
+            </div>
+
+        </details><br><br>
+        <input type="email" placeholder="Correo electrónico" required>
+        <label style="color: red;">*</label><br><br>
+        <input type="password" placeholder="Ingrese contraseña" required>
+        <label style="color: red;">*</label><br><br>
+        <input type="submit"><br><br>
+
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>informacion personal</legend>
+            <input type="email" placeholder="Correo electrónico" required>
+            <label style="color: red;">*</label><br><br>
+            <input type="password" placeholder="Ingrese contraseña" required>
+            <label style="color: red;">*</label><br><br>
+            <input type="submit"><br><br>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
